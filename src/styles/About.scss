@@ -1,0 +1,43 @@
+.about-container{
+    width:100%;
+    height:100vh;
+    padding-top:10vh;
+    box-sizing: border-box;
+    hr {
+      width: 50vw;
+      background-color: #d25565;
+      height: 3px;
+      border-radius: 3px;
+    }
+  }
+  .about, .skills{
+    width: 70%;
+    margin: 50px auto;
+  }
+  h1{
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+  }
+  p{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .skills-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    li{
+  
+      width: 150px;
+      margin: 30px auto 50px;
+    }
+  }
+  button{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    background-color: cadetblue;
+  }
+
+
+
