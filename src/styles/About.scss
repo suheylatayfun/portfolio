@@ -14,7 +14,7 @@
     }
   }
   .about, .skills{
-    width: 70%;
+    width: 70vw;
     margin: 30px auto;
   }
   h1{
@@ -29,10 +29,21 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding: 0px 20px;
+    box-sizing: border-box;
+  
     li{
-      // width: 150px;
-      margin: 30px auto 50px;
+      margin: 30px auto;
     }
+    @include phone{
+      
+      flex-wrap: wrap;
+      li{
+        width: 50px;
+        margin:0px;
+      }
+    }
+  
   }
  
 
@@ -46,20 +57,38 @@
       box-sizing: border-box;
       margin:0px auto;
     }
-    // .skills{
-    //   margin: 10px auto;
-    // }
+
     h1{
-      font-size: 22px;
+      font-size: 24px;
     }
     p{
       font-size: 16px;
     }
     .skills-list{
       li{
-        margin: 10px auto 20px;
+        margin: 10px auto;
       }
     }
     
   };
- 
+ @include phone{
+   .skills-list{
+    li{
+      margin: 5px auto;
+    }
+ }
+}
+ @include sphone{
+   h1{
+     font-size: 20px;
+   }
+   p{
+     font-size: 14px;
+   }
+   .skills-list{
+     li{
+      margin: 0px auto;
+    }
+   }
+      
+}

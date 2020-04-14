@@ -18,30 +18,39 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    .project-image{
-        width: 45%;
-        box-shadow: 0px 0px 11px 0px rgb(167, 167, 167)
+    @include tablet{
+      flex-direction: column;
+      justify-content: center;
     }
-    .project-info{
-        width: 45%;
-        text-align: left;
-        .external-links{
-          display: flex;
-          align-items: center;
-          justify-content: center;        
-        }   
-    }
+    
 }
 
-@include tablet{
-  p{
-    font-size: 18px;
+.project-image{
+  width: 45%;
+  box-shadow: 0px 0px 11px 0px rgb(167, 167, 167);
+  @include tablet{
+    width: 100%;
+    box-shadow:none;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
   }
-  .project-image{
-    height: 200px;
-    width: 50%;
+
+}
+#image{
+  width: 100%;
+}
+.project-info{
+  width: 45%;
+  text-align: left;
+  @include tablet{
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
   }
-  .project-info{
-    width: 50%;
-  }
+  .external-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+  }   
 }
