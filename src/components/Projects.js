@@ -14,11 +14,11 @@ function Projects() {
         <div className="project">
           <img src={volevent} alt="volunteer" className="project-image"/>
           <div className="project-info">
-            <p>Volevent is a fully responsive application where organizations can share their events in need of volunteers and volunteers can check upcoming events and attend them.
+            <p>Volevent, personal project, is a fully responsive website where organizations can share their events in need of volunteers and volunteers can check upcoming events and attend them.
             <p><strong>Technologies:</strong> React, Redux, Node, Express, PostgreSQL, Massive, Sass, Bcrypt.js, Cloudinary, Sendgrid</p>
             <div className="external-links">
             <a href="https://github.com/rahimestayfun/dallas-volunteer-app" target="_blank" rel="noopener noreferrer"><Icon icon={githubIcon} width="45"/></a>
-            <a href="http://www.volevent.xyz/#/" target="_blank" rel="noopener noreferrer"><GoGlobe size="50" color="#D25565"/></a> 
+            <a href="http://www.volevent.xyz/#/" target="_blank" rel="noopener noreferrer"><GoGlobe size="50" color="#5F4B8BFF"/></a> 
             </div>
             </p>
           </div>
@@ -28,7 +28,7 @@ function Projects() {
         <div className="project">
           <img src={giftAway}  alt="giftaway" className="project-image"/>
           <div className="project-info">
-            <p>Gift Away, my group project, is a fully responsive donations website where anyone can give away his/her unused or unwanted stuff at home
+            <p>Gift Away, group project, is a fully responsive donations website where anyone can give away his/her unused or unwanted stuff at home
             <p><strong>Technologies:</strong> React, Redux, Node, Express, PostgreSQL, Massive, Sass, Bcrypt.js, Cloudinary,Bootstrap,Socket.io</p>
             <div className="external-links">
             <a href="https://github.com/wdl28-group-project/donationizer" target="_blank" rel="noopener noreferrer"><Icon icon={githubIcon} width="45"/></a>

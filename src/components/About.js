@@ -39,18 +39,18 @@ function About(){
     <div className="skills">
       <h1>Skills</h1>
       <ul className="skills-list">    
-        <li title="html"><Icon icon={html5} width="45px"/></li>
-        <li title="css"><Icon icon={css3} width="45px" /></li>
-        <li title="javascript"><Icon icon={javascriptIcon} width="60px" /></li>
-        <li title="sass"><Icon icon={sassIcon} width="60px" /></li>
-        <li title="react"><Icon icon={reactIcon} width="55px"/></li>
-        <li title="redux"><Icon icon={reduxIcon} width="55px"/></li>
-        <li title="node"><Icon icon={nodejsIcon} width="75px"/></li>
-        <li title="postgresql"><Icon icon={postgresqlIcon} width="55px"/></li>
-        <li title="npm"><Icon icon={npmIcon} width="65px"/></li>
-        <li title="postman"><Icon icon={postmanIcon} width="55px"/></li>
-        <li title="sendgrid"><Icon icon={sendgridIcon} width="55px"/></li>
-        <li title="cloudinary"><Icon icon={cloudinaryIcon} width="65px"/></li>
+        <li title="html"><Icon icon={html5} width="30px"/></li>
+        <li title="css"><Icon icon={css3} width="30px" /></li>
+        <li title="javascript"><Icon icon={javascriptIcon} width="40px" /></li>
+        <li title="sass"><Icon icon={sassIcon} width="40px" /></li>
+        <li title="react"><Icon icon={reactIcon} width="45px"/></li>
+        <li title="redux"><Icon icon={reduxIcon} width="40px"/></li>
+        <li title="node"><Icon icon={nodejsIcon} width="50px"/></li>
+        <li title="postgresql"><Icon icon={postgresqlIcon} width="40px"/></li>
+        <li title="npm"><Icon icon={npmIcon} width="45px"/></li>
+        <li title="postman"><Icon icon={postmanIcon} width="40px"/></li>
+        <li title="sendgrid"><Icon icon={sendgridIcon} width="30px"/></li>
+        <li title="cloudinary"><Icon icon={cloudinaryIcon} width="45px"/></li>
       </ul>
     </div>
     <hr/>

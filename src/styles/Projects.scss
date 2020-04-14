@@ -1,13 +1,13 @@
 .projects-container{
     width:100%;
-    padding-top:5vh;
+    padding-top:10vh;
     box-sizing: border-box;
     h1{
       margin-bottom: 50px;
     }
     hr {
       width: 50vw;
-      background-color: #d25565;
+      background-color:#E69A8DFF;
       height: 3px;
       border-radius: 3px;
       margin: 50px auto;
@@ -33,3 +33,15 @@
     }
 }
 
+@include tablet{
+  p{
+    font-size: 18px;
+  }
+  .project-image{
+    height: 200px;
+    width: 50%;
+  }
+  .project-info{
+    width: 50%;
+  }
+}

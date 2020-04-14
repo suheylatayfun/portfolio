@@ -1,0 +1,14 @@
+//breakpoints
+  $phone:400px;
+  $tablet:880px;
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+      @content;
+    }
+  }
+  @mixin phone {
+    @media (max-width: #{$phone}) {
+      @content;
+    }
+  }

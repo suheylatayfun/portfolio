@@ -1,31 +1,40 @@
 @import "./styles/Header.scss";
 @import "./styles/About.scss";
 @import "./styles//Projects.scss";
+@import "./styles/Settings.scss";
 
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap");
+
+
 
 .App {
   width: 100%;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  background-color:#fcede7;
+  color:#5F4B8BFF;
 }
 .home {
   height: 100vh;
+  width: 100%;
   hr {
     width: 50vw;
-    background-color: #d25565;
+    background-color:#E69A8DFF;
     height: 3px;
     border-radius: 3px;
   }
 }
 
 .landing {
-  margin: 30vh auto 25vh;
+  margin:0 25vh;
+  padding: 30vh 0;
+  box-sizing: border-box;
   h1 {
     font-size: 3em;
     font-family: "Merriweather", serif;
     animation: swoop 1s ease-in;
+    color: #5F4B8BFF;
   }
   p {
     font-size: 23px;
@@ -38,6 +47,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   a{
       margin: 0 10px;
       text-decoration: none;
@@ -56,6 +66,9 @@
   position: fixed;
   bottom: 100px;
   right:20px;
+  @include tablet{
+    display: none;
+  }
 
 }
 
@@ -63,9 +76,24 @@
 footer{
   width: 100%;
   height: 10vh;
-  background-color:#D25565;
+  // background-color:#D25565;
+  background-color: #5F4B8BFF;
+  color:#E69A8DFF;
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@include tablet{
+  .landing {
+    margin:0 5vh;  
+    h1 {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
 }
