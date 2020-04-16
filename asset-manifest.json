@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.46b6a8ae.chunk.css",
+    "main.js": "/portfolio/static/js/main.51e279b4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.51e279b4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
+    "static/js/2.f81e486e.chunk.js": "/portfolio/static/js/2.f81e486e.chunk.js",
+    "static/js/2.f81e486e.chunk.js.map": "/portfolio/static/js/2.f81e486e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.3d66559a69bfae6a29fb904e468d76f3.js": "/portfolio/precache-manifest.3d66559a69bfae6a29fb904e468d76f3.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.46b6a8ae.chunk.css.map": "/portfolio/static/css/main.46b6a8ae.chunk.css.map",
+    "static/js/2.f81e486e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f81e486e.chunk.js.LICENSE.txt",
+    "static/media/gift-away-1.png": "/portfolio/static/media/gift-away-1.97d24a3f.png",
+    "static/media/recipe-book-1.png": "/portfolio/static/media/recipe-book-1.cd71fdc5.png",
+    "static/media/storepo-1.png": "/portfolio/static/media/storepo-1.6efe578d.png",
+    "static/media/volevent.png": "/portfolio/static/media/volevent.248437b5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44087e9b.js",
+    "static/js/2.f81e486e.chunk.js",
+    "static/css/main.46b6a8ae.chunk.css",
+    "static/js/main.51e279b4.chunk.js"
+  ]
+}
