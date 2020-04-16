@@ -99,11 +99,13 @@ footer{
     }
   }
 }
-// @include phone{
-//   h1{
-//     font-size: 30px;
-//   }
-//   p {
-//     font-size: 25px;
-//   }
-// }
+@include sphone{
+  .landing{
+    h1{
+      font-size: 22px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
