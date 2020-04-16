@@ -25,10 +25,10 @@ function About(){
         principles of HTML, CSS, and Javascript through online courses,
         YouTube videos, and medium blogs. After learning the fundamentals, I
         have attended into Devmountain Web Development Program
-        where I spent hours of coding to learn how to build the front-end
-        user interfaces with React/Redux, full CRUD operations on a
-        PostgreSQL database through a Node server and deploy my full
-        stack application with popular technologies. I also solidified my
+        where I've spent hours of coding to learn how to build the front-end
+        user interfaces with React/Redux, implement full CRUD operations on a
+        PostgreSQL database through a Node server, and deploy my full
+        stack application with popular technologies. I've also solidified my
         HTML, CSS/Sass, and Javascript skills.
       </p>
       <p>
