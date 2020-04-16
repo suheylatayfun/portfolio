@@ -24,10 +24,10 @@ function About(){
         education. My coding journey started by teaching myself the core
         principles of HTML, CSS, and Javascript through online courses,
         YouTube videos, and medium blogs. After learning the fundamentals, I
-        have attended into Devmountain immersive Web development program
+        have attended into Devmountain Web Development Program
         where I spent hours of coding to learn how to build the front-end
         user interfaces with React/Redux, full CRUD operations on a
-        PostgreSQL database through a Node server and to deploy my full
+        PostgreSQL database through a Node server and deploy my full
         stack application with popular technologies. I also solidified my
         HTML, CSS/Sass, and Javascript skills.
       </p>
