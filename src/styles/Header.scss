@@ -73,17 +73,18 @@
 }
 .navigation-links-mobile{
     width: 100%;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 50%;
-    margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    margin:auto;
+
     a{
         list-style-type: none;
-        font-size: 23px;
+        font-size: 24px;
         color: #E69A8DFF;
-        margin: 0 20px;
+        margin: 10px 0px;
         text-decoration:none;
     }
 }
