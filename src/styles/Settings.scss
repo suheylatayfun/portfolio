@@ -1,7 +1,7 @@
 //breakpoints
   $sphone: 390px;
   $phone:585px;
-  $tablet:920px;
+  $tablet:930px;
 
 @mixin tablet {
     @media (max-width: #{$tablet}) {

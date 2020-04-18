@@ -19,22 +19,10 @@ function About(){
     <div className="about-container" id="about">
     <div className="about">
       <h1>About me</h1>
-      <p>
-        I am a highly motivated web developer with a background in
-        education. My coding journey started by teaching myself the core
-        principles of HTML, CSS, and Javascript through online courses,
-        YouTube videos, and medium blogs. After learning the fundamentals, I
-        have attended into Devmountain Web Development Program
-        where I've spent hours of coding to learn how to build the front-end
-        user interfaces with React/Redux, implement full CRUD operations on a
-        PostgreSQL database through a Node server, and deploy my full
-        stack application with popular technologies. I've also solidified my
-        HTML, CSS/Sass, and Javascript skills.
-      </p>
-      <p>
-        My career goal is to do my best at web development field and keep my
-        motivation high all the time.
-      </p>
+      <p>I am a highly motivated Web Developer with a background in education.</p>
+      <p>My coding journey started by studying the core principles of HTML, CSS, and JavaScript. I taught myself through the use of online courses, YouTube videos, and Medium blogs. After learning the fundamentals, I enrolled in Devmountain's 15 week Immersive Web Development Program.</p>
+      <p>Through Devmountain's project-based curriculum, I gained and employed the skills necessary to build front-end user interfaces using React and Redux, the skills to build back-ends in Node and connect front with back using full CRUD operations, and the skills to create and connect a manageable PostgreSQL database. While enrolled, I taught myself a few non-curriculum technologies and gained team experience by working with a group tasked with deploying a site from scratch.</p>
+      <p>My passion for Web Development drives me to do my best in the field, and my background in education empowers my learning.</p>
     </div>
     <div className="skills">
       <h1>Skills</h1>
@@ -53,8 +41,7 @@ function About(){
         <li title="cloudinary"><Icon icon={cloudinaryIcon} width="45px"/></li>
       </ul>
     </div>
-    <hr/>
-   
+    {/* <hr/> */}
   </div>
 
   )

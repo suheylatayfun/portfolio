@@ -1,25 +1,16 @@
 .about-container{
     width:100%;
-    height:100vh;
-    padding-top:15vh;
+    // height:100vh;
+    padding-top:12vh;
     box-sizing: border-box;  
-    hr {
-      width: 50vw;
-      background-color:#E69A8DFF;
-      height: 3px;
-      border-radius: 3px;
-      @include tablet{
-        display: none;
-      }
-    }
   }
   .about{
     width: 70vw;
-    margin:0px auto 60px;
+    margin:0px auto ;
   }
   .skills{
     width: 70vw;
-    margin: 40px auto 100px;
+    margin: 40px auto 0px;
   }
   h1{
     font-size: 25px;
@@ -32,33 +23,18 @@
   .skills-list{
     display: flex;
     justify-content: center;
-    list-style-type: none;
-    padding: 0px 20px;
-    box-sizing: border-box;
-  
+    align-items:center;
+    list-style-type: none; 
+    padding: 0px;
+    box-sizing: border-box; 
     li{
       margin: 30px auto;
-    }
-    @include phone{
-      
-      flex-wrap: wrap;
-      li{
-        width: 50px;
-        margin:0px;
-      }
-    }
-  
+    }  
   }
- 
-
-
-
   @include tablet{
     .about-container{
       padding-top: 10vh;
-
     }
-    
     .about, .skills{
       width: 100%;
       padding: 0 20px;
@@ -72,8 +48,9 @@
       font-size: 16px;
     }
     .skills-list{
+      flex-wrap: wrap;
       li{
-        margin: 10px auto;
+        margin: 20px;
       }
     }
     
@@ -81,9 +58,10 @@
 
 @include phone{
    .skills-list{
-    li{
-      margin: 5px auto;
-    }
+      li{
+        width: 50px;
+        margin: 5px auto;
+      }
  }
 }
  @include sphone{
