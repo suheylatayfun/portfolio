@@ -1,76 +1,89 @@
-.projects-container{
-    width:100%;
-    padding-top:10vh;
-    box-sizing: border-box;
-    h1{
-      margin-bottom: 50px;
-    }
-    hr {
-      width: 50vw;
-      background-color:#E69A8DFF;
-      height: 3px;
-      border-radius: 3px;
-      margin: 50px auto;
-    }
+.projects-container {
+  width: 100%;
+  padding-top: 10vh;
+  box-sizing: border-box;
+  h1 {
+    margin-bottom: 50px;
   }
-.project{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  hr {
+    width: 50vw;
+    background-color: #e69a8dff;
+    height: 3px;
+    border-radius: 3px;
+    margin: 50px auto;
+  }
+}
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.project-image{
+.project-image {
   width: 45%;
   box-shadow: 0px 0px 11px 0px rgb(138, 137, 137);
 }
-#image{
+#image {
   width: 100%;
   margin-bottom: -5px;
 }
 
-.project-info{
+.project-info {
   width: 45%;
   text-align: left;
-  .external-links{
+  .external-links {
     display: flex;
     align-items: center;
-    justify-content: center;        
-  }   
+    justify-content: center;
+  }
 }
-@include tablet{
-  .projects-container{
-      width: 100%;
-      box-shadow:none;
-      padding:10vh 30px 0 30px;
-      box-sizing: border-box;
-      h1{
-            margin-bottom: 20px;
-      }
-      hr {
-        margin: 30px auto;
-      }
+@include tablet {
+  .projects-container {
+    width: 100%;
+    box-shadow: none;
+    padding: 10vh 30px 0 30px;
+    box-sizing: border-box;
+    h1 {
+      margin-bottom: 20px;
+    }
+    hr {
+      margin: 30px auto;
+    }
   }
-  .project{
-      flex-direction: column;
-      justify-content: center;
+  .project {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-info {
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .project-image {
+    width: 100%;
+    box-shadow: none;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right,
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    min-width: 35px;
+    min-height: 35px;
+  }
 }
-  .project-info{
-      width: 100%;
-      padding: 0 40px;
-      box-sizing: border-box;
-  }
-  .project-image{
-      width: 100%;
-      box-shadow:none;
-      padding: 0 30px;
-      box-sizing: border-box;
-  }
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right,
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  background-color: rgba(95, 75, 139, 0.849);
+  z-index: 0;
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right:hover,
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left:hover {
+  background-color: rgba(230, 154, 141, 0.808);
+}
 
-}
-
-@include phone{
-  .projects-container{
-    padding:10vh 5px 0 5px;
+@include phone {
+  .projects-container {
+    padding: 10vh 5px 0 5px;
   }
 }

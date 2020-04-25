@@ -1,80 +1,79 @@
-.about-container{
-    width:100%;
-    // height:100vh;
-    padding-top:12vh;
-    box-sizing: border-box;  
+.about-container {
+  width: 100%;
+  // height:100vh;
+  padding-top: 12vh;
+  box-sizing: border-box;
+}
+.about {
+  width: 70vw;
+  margin: 0px auto;
+}
+.skills {
+  width: 70vw;
+  margin: 40px auto 0px;
+}
+h1 {
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+}
+p {
+  font-size: 20px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  box-sizing: border-box;
+  li {
+    margin: 20px 15px;
+    h4 {
+      margin-top: -1px;
+    }
   }
-  .about{
-    width: 70vw;
-    margin:0px auto ;
+  li:hover {
+    transform: scaleZ(1.4) scaleY(1.4) scaleX(1.4);
   }
-  .skills{
-    width: 70vw;
-    margin: 40px auto 0px;
+}
+@include tablet {
+  .about-container {
+    padding-top: 10vh;
   }
-  h1{
-    font-size: 25px;
-    font-family: 'Merriweather', serif;
+  .about,
+  .skills {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0px auto;
   }
-  p{
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .skills-list {
+    flex-wrap: wrap;
+    li {
+      margin: 20px;
+    }
+  }
+}
+
+@include phone {
+  .skills-list {
+    li {
+      margin: 5px 10px;
+    }
+  }
+}
+@include sphone {
+  h1 {
     font-size: 20px;
   }
-  
-  .skills-list{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    list-style-type: none; 
-    padding: 0px;
-    box-sizing: border-box; 
-    li{
-      margin: 30px auto;
-    }  
+  p {
+    font-size: 14px;
   }
-  @include tablet{
-    .about-container{
-      padding-top: 10vh;
-    }
-    .about, .skills{
-      width: 100%;
-      padding: 0 20px;
-      box-sizing: border-box;
-      margin:0px auto;
-    }
-    h1{
-      font-size: 24px;
-    }
-    p{
-      font-size: 16px;
-    }
-    .skills-list{
-      flex-wrap: wrap;
-      li{
-        margin: 20px;
-      }
-    }
-    
-  };
-
-@include phone{
-   .skills-list{
-      li{
-        width: 50px;
-        margin: 5px auto;
-      }
- }
-}
- @include sphone{
-   h1{
-     font-size: 20px;
-   }
-   p{
-     font-size: 14px;
-   }
-   .skills-list{
-     li{
-      margin: 0px auto;
-    }
-   }
-      
 }
