@@ -23,7 +23,6 @@ class Header extends React.Component {
         >
           <li>
             <a
-              //   className="active"
               href="#home"
               onClick={() => {
                 this.setState({ isOpen: false });

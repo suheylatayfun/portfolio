@@ -66,9 +66,9 @@
     margin: 0 20px;
     text-decoration: none;
   }
-  //   a:active {
-  //     border-bottom: 2px solid #e69a8dff;
-  //   }
+  a:active {
+    border-bottom: 2px solid #e69a8dff;
+  }
 }
 .navigation-links-mobile {
   width: 100%;
@@ -77,13 +77,13 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: auto;
+  margin: 0 0 0 -40px;
 
   a {
     list-style-type: none;
-    font-size: 24px;
+    font-size: 25px;
     color: #e69a8dff;
-    margin: 10px 0px;
+    margin: 15px 0px;
     text-decoration: none;
   }
 }

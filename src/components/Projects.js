@@ -23,7 +23,8 @@ import recipe2 from "./../asset/recipe-book-2.png";
 import recipe3 from "./../asset/recipe-book-3.png";
 import recipe4 from "./../asset/recipe-book-4.png";
 import recipe5 from "./../asset/recipe-book-5.png";
-import giftAway from "./../asset/gift-away-1.png";
+import giftAway1 from "./../asset/gift-away-1.png";
+import giftAway2 from "./../asset/gift-away-2.png";
 import Icon from "@iconify/react";
 import githubIcon from "@iconify/icons-logos/github-icon";
 import { GoGlobe } from "react-icons/go";
@@ -100,9 +101,10 @@ function Projects() {
       <hr />
 
       <div className="project">
-        <div className="project-image">
-          <img src={giftAway} alt="giftaway" id="image" />
-        </div>
+        <Carousel responsive={responsive} className="project-image">
+          <img src={giftAway1} alt="giftaway" id="image" />
+          <img src={giftAway2} alt="giftaway" id="image" />
+        </Carousel>
         <div className="project-info">
           <p>
             <strong>Gift Away</strong>, group project, is a fully responsive
