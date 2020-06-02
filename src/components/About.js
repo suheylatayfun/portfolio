@@ -8,11 +8,11 @@ import reactIcon from "@iconify/icons-logos/react";
 import reduxIcon from "@iconify/icons-logos/redux";
 import nodejsIcon from "@iconify/icons-logos/nodejs";
 import postgresqlIcon from "@iconify/icons-logos/postgresql";
-import npmIcon from "@iconify/icons-logos/npm";
-import postmanIcon from "@iconify/icons-logos/postman";
-import sendgridIcon from "@iconify/icons-logos/sendgrid";
-import cloudinaryIcon from "@iconify/icons-logos/cloudinary";
 import expressIcon from "@iconify/icons-logos/express";
+// import npmIcon from "@iconify/icons-logos/npm";
+// import postmanIcon from "@iconify/icons-logos/postman";
+// import sendgridIcon from "@iconify/icons-logos/sendgrid";
+// import cloudinaryIcon from "@iconify/icons-logos/cloudinary";
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
           My coding journey started by studying the core principles of HTML,
           CSS, and JavaScript. I taught myself through the use of online
           courses, YouTube videos, and Medium blogs. After learning the
-          fundamentals, I enrolled in Devmountain's 15 week Immersive Web
+          fundamentals, I enrolled in Devmountain's 13 weeks Immersive Web
           Development Program.
         </p>
         <p>

@@ -71,10 +71,11 @@ function Projects() {
         <div className="project-info">
           <p>
             <strong>Volevent</strong>, personal project, is a fully responsive
-            volunteering website that brings volunteers and organizations
-            together on volunteering events. Organizations can share their
-            events which are serving the community and in need of volunteers and
-            Volunteers can check for upcoming events and be a volunteer in them.
+            volunteering platform that brings volunteers and organizations
+            together on volunteering events. While organizations can share their
+            events which is serving the community and in need of volunteer(s),
+            volunteers can check upcoming events and can be a volunteer for
+            them.
             <p>
               <strong>Technologies:</strong> React, Redux, Node, Express,
               PostgreSQL, Massive, Sass, Bcrypt.js, Cloudinary, Sendgrid
@@ -125,7 +126,6 @@ function Projects() {
               >
                 <Icon icon={githubIcon} width="45" />
               </a>
-              {/* <a href="http://www.volevent.xyz/#/" target="_blank" rel="noopener noreferrer"><GoGlobe size="50"/></a>  */}
             </div>
           </p>
         </div>
@@ -133,7 +133,6 @@ function Projects() {
       <hr />
 
       <div className="project">
-        {/* <div className="project-image"> */}
         <Carousel responsive={responsive} className="project-image">
           <img src={storepo1} alt="story-blog" id="image" />
           <img src={storepo2} alt="story-blog" id="image" />
@@ -143,12 +142,12 @@ function Projects() {
           <img src={storepo6} alt="story-blog" id="image" />
           <img src={storepo7} alt="story-blog" id="image" />
         </Carousel>
-        {/* </div> */}
         <div className="project-info">
           <p>
             <strong>Storepo</strong> is a blog hosting platform for user to
             share their first day experience at work with others. Users also can
-            view others' experience and search blogs under different categories.
+            view others' experiences and search for blogs under different
+            categories.
             <p>
               <strong>Technologies:</strong> React, Html, Css, Recaptcha
             </p>
@@ -160,7 +159,6 @@ function Projects() {
               >
                 <Icon icon={githubIcon} width="45" />
               </a>
-              {/* <a href="http://www.volevent.xyz/#/" target="_blank" rel="noopener noreferrer"><GoGlobe size="50"/></a>  */}
             </div>
           </p>
         </div>

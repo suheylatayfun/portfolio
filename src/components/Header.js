@@ -38,7 +38,17 @@ class Header extends React.Component {
                 this.setState({ isOpen: false });
               }}
             >
-              About{" "}
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about"
+              onClick={() => {
+                this.setState({ isOpen: false });
+              }}
+            >
+              Skills
             </a>
           </li>
           <li>
@@ -49,6 +59,18 @@ class Header extends React.Component {
               }}
             >
               Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:rahimestayfun@gmail.com"
+              rel="noopener noreferrer"
+              title="email"
+              onClick={() => {
+                this.setState({ isOpen: false });
+              }}
+            >
+              Contact
             </a>
           </li>
         </ul>
