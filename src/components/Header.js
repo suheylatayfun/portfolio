@@ -41,7 +41,7 @@ class Header extends React.Component {
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#about"
               onClick={() => {
@@ -50,7 +50,7 @@ class Header extends React.Component {
             >
               Skills
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#projects"

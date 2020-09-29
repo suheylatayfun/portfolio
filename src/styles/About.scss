@@ -29,6 +29,7 @@ p {
   box-sizing: border-box;
   li {
     margin: 20px 15px;
+    transition: transform 0.8s;
     h4 {
       margin-top: -1px;
     }

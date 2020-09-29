@@ -11,6 +11,7 @@ import volevent9 from "./../asset/volevent-9.png";
 import volevent10 from "./../asset/volevent-10.png";
 import volevent11 from "./../asset/volevent-11.png";
 import volevent12 from "./../asset/volevent-12.png";
+import typing1 from "../asset/typing-1.png";
 import storepo1 from "./../asset/storepo-1.png";
 import storepo2 from "./../asset/storepo-2.png";
 import storepo3 from "./../asset/storepo-3.png";
@@ -94,6 +95,40 @@ function Projects() {
                 rel="noopener noreferrer"
               >
                 <GoGlobe size="50" color="#5F4B8BFF" />
+              </a>
+            </div>
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div className="project">
+        <Carousel responsive={responsive} className="project-image">
+          <img src={typing1} alt="recipe" id="image" />
+        </Carousel>
+        <div className="project-info">
+          <p>
+            <strong>Typing practice</strong> is a simple Javascript typing
+            playground for anyone who wants to practice typing with a relaxing
+            music. User can realize his/her typos easily with an indicator on
+            the text and a lowering music volume. It also offers a dark mode
+            selection.
+            <p>
+              <strong>Technologies:</strong> Javascript
+            </p>
+            <div className="external-links">
+              <a
+                href="https://github.com/rahimestayfun/typing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon icon={githubIcon} width="45" />
+              </a>
+              <a
+                href="https://rahimestayfun.github.io/typing/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GoGlobe size="50" />
               </a>
             </div>
           </p>

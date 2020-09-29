@@ -19,9 +19,7 @@ function About() {
     <div className="about-container" id="about">
       <div className="about">
         <h1>About me</h1>
-        <p>
-          I am a highly motivated Web Developer with a background in education.
-        </p>
+        <p>A highly motivated Web Developer with a background in education.</p>
         <p>
           My coding journey started by studying the core principles of HTML,
           CSS, and JavaScript. I taught myself through the use of online
