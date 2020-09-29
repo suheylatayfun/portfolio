@@ -108,7 +108,7 @@ function Projects() {
         <div className="project-info">
           <p>
             <strong>Typing practice</strong> is a simple Javascript typing
-            playground for anyone who wants to practice typing with a relaxing
+            playground for anyone who wants to practice typing with relaxing
             music. User can realize his/her typos easily with an indicator on
             the text and a lowering music volume. It also offers a dark mode
             selection.
