@@ -18,28 +18,28 @@ function About() {
   return (
     <div className="about-container" id="about">
       <div className="about">
+        <br />
         <h1>About me</h1>
-        <p>A highly motivated Web Developer with a background in education.</p>
+        <br />
         <p>
-          My coding journey started by studying the core principles of HTML,
-          CSS, and JavaScript. I taught myself through the use of online
-          courses, YouTube videos, and Medium blogs. After learning the
-          fundamentals, I enrolled in Devmountain's 13 weeks Immersive Web
-          Development Program.
+          A curious, technology passionate and a detail oriented web developer
+          with a background in education.
         </p>
         <p>
-          Through Devmountain's project-based curriculum, I gained and employed
-          the skills necessary to build front-end user interfaces using React
-          and Redux, the skills to build back-ends in Node and connect front
-          with back using full CRUD operations, and the skills to create and
-          connect a manageable PostgreSQL database. While enrolled, I taught
-          myself a few non-curriculum technologies and gained team experience by
-          working with a group tasked with deploying a site from scratch.
+          A recent graduate of Devmountain, a full-stack web development coding
+          bootcamp, where I gained and employed skills in React, Redux,
+          HTML/CSS, Javascript, Node.js, Express and emerging technologies to
+          build full stack, full crud applications from design into deployment.
+          I also gained team experience by working with a group tasked with
+          deploying a site from scratch.
         </p>
         <p>
-          My passion for Web Development drives me to do my best in the field,
-          and my background in education empowers my learning.
+          I love tech as It gives me a creative freedom and an ability to
+          enhance my logical skills, so I enjoy learning more and more to
+          further my coding skills and building useful things that make people’s
+          lives easier.
         </p>
+        <br />
       </div>
       <div className="skills">
         <h1>Skills</h1>

@@ -1,12 +1,13 @@
 import React from "react";
 
 class Header extends React.Component {
-  state = { isOpen: false };
+  state = { isOpen: false, view: "" };
   render() {
+    const { view } = this.state;
     return (
       <header className={this.state.isOpen ? "header-show" : "header-hide"}>
         <div
-          class="navigation-mobile"
+          className="navigation-mobile"
           onClick={() => {
             this.setState({ isOpen: !this.state.isOpen });
           }}
@@ -25,8 +26,9 @@ class Header extends React.Component {
             <a
               href="#home"
               onClick={() => {
-                this.setState({ isOpen: false });
+                this.setState({ isOpen: false, view: "home" });
               }}
+              className={view === "home" ? "selected" : null}
             >
               Home
             </a>
@@ -35,8 +37,9 @@ class Header extends React.Component {
             <a
               href="#about"
               onClick={() => {
-                this.setState({ isOpen: false });
+                this.setState({ isOpen: false, view: "about" });
               }}
+              className={view === "about" ? "selected" : null}
             >
               About
             </a>
@@ -55,8 +58,9 @@ class Header extends React.Component {
             <a
               href="#projects"
               onClick={() => {
-                this.setState({ isOpen: false });
+                this.setState({ isOpen: false, view: "projects" });
               }}
+              className={view === "projects" ? "selected" : null}
             >
               Projects
             </a>

@@ -49,7 +49,7 @@ function App() {
               <Icon icon={githubIcon} width="50" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1YM7rZZ3ft2RqBWZ7UY0Wpc_-YbSpfrbM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1e3aX4p6dIN_yk7sWkfAVBkrYp_qDv1BM/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               title="resume"
