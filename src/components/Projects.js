@@ -30,6 +30,7 @@ import recipe3 from "./../asset/recipe-book-3.png";
 // import recipe5 from "./../asset/recipe-book-5.png";
 import giftAway1 from "./../asset/gift-away-1.png";
 import giftAway2 from "./../asset/gift-away-2.png";
+import us_arms_sales from "../asset/us_arms_sales.png";
 import Icon from "@iconify/react";
 import githubIcon from "@iconify/icons-logos/github-icon";
 import { GoGlobe } from "react-icons/go";
@@ -134,6 +135,42 @@ function Projects() {
               rel="noopener noreferrer"
             >
               <Icon icon={githubIcon} width="45" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div className="project">
+        <Carousel responsive={responsive} className="project-image">
+          <img src={us_arms_sales} alt="map" id="image" />
+        </Carousel>
+        <div className="project-info">
+          <div>
+            <p>
+              <strong>US Arms Sales</strong> is a Mintbean hackathon for Social
+              Justice Hack Week built with two other team members. It is data
+              visualization project for global US arms trade data. You can see
+              US arms sales deliveries/authorizations data on a world choropleth
+              and filter them by year and regional sales data on doughnut chart.{" "}
+            </p>
+            <p>
+              <strong>Technologies:</strong> React, d3.js, chart.js
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              href="https://github.com/yhafez/USArmsTrade"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icon={githubIcon} width="45" />
+            </a>
+            <a
+              href="https://usarmstrade.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GoGlobe size="50" color="#5F4B8BFF" />
             </a>
           </div>
         </div>
