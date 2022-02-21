@@ -22,24 +22,15 @@ function About() {
         <h1>About me</h1>
         <br />
         <p>
-          A curious, technology passionate and a detail oriented web developer
-          with a background in education.
+         In 2020, I found my passion for learning to build from scratch, making it work how I want by coding, and using it to improve the lives of people, so I made a career transition from being a teacher to a web developer. 
         </p>
         <p>
-          A recent graduate of Devmountain, a full-stack web development coding
-          bootcamp, where I gained and employed skills in React, Redux,
-          HTML/CSS, Javascript, Node.js, Express and emerging technologies to
-          build full stack, full crud applications from design into deployment.
-          I also gained team experience by working with a group tasked with
-          deploying a site from scratch.
-        </p>
-        <p>
-          I love tech as It gives me a creative freedom and an ability to
-          enhance my logical skills, so I enjoy learning more and more to
-          further my coding skills and building useful things that make people’s
-          lives easier.
+         I'm a web developer employed with skills in Javascript, React, Redux-Saga, HTML/CSS, Node.js, Express.js and emerging technologies to build full stack, full crud applications from design into deployment. 
         </p>
         <br />
+        <p>
+        I love spending time with my beloved one in nature, walking, doing outdoor activities and tasting my husband's delicious foods.
+        </p>
       </div>
       <div className="skills">
         <h1>Skills</h1>
