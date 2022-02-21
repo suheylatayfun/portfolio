@@ -97,13 +97,6 @@ function Projects() {
             >
               <Icon icon={githubIcon} width="45" />
             </a>
-            <a
-              href="http://www.volevent.xyz/#/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GoGlobe size="50" color="#5F4B8BFF" />
-            </a>
           </div>
         </div>
       </div>
