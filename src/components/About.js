@@ -29,7 +29,7 @@ function About() {
         </p>
         <br />
         <p>
-        I love spending time with my beloved one in nature, walking, doing outdoor activities and tasting my husband's delicious foods.
+         I love spending time with my beloved one in nature, walking, doing outdoor activities and tasting my husband's delicious foods.
         </p>
       </div>
       <div className="skills">
